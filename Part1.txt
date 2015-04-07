@@ -1,0 +1,10 @@
+mysql> create function exp_number(num1 int, num2 int) returns int return num1*num2;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> select exp_number(27,43);
++-------------------+
+| exp_number(27,43) |
++-------------------+
+|              1161 |
++-------------------+
+1 row in set (0.00 sec)
